@@ -1,0 +1,448 @@
+[UCP]: log level = 3
+[UCP]: UCP version = 3.7.6
+[VP]: log level = 3
+[DNN]: log level = 3
+[HPL]: log level = 3
+[UCPT]: log level = 6
+hrt_model_exec model_info --model_file bpu-siglip-base-patch16-224.hbm
+[BPU][[BPU_MONITOR]][281472818707360][INFO]BPULib verison(2, 1, 2)[0d3f195]!
+[DNN] HBTL_EXT_DNN log level:6
+[DNN]: 3.7.6_(4.3.3 HBRT)
+Load model to DDR cost 520.92ms.
+This model file has 2 model:
+[last_hidden_state]	[pooler_output]	
+---------------------------------------------------------------------
+[model name]: last_hidden_state
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,224,224)
+aligned byte size: 602112
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (602112,200704,896,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,196,768)
+aligned byte size: 602112
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (602112,3072,4)
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+[model name]: pooler_output
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,224,224)
+aligned byte size: 602112
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (602112,200704,896,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,1,768)
+aligned byte size: 3072
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (3072,3072,4)
+
+---------------------------------------------------------------------
+
+[UCP]: log level = 3
+[UCP]: UCP version = 3.7.6
+[VP]: log level = 3
+[DNN]: log level = 3
+[HPL]: log level = 3
+[UCPT]: log level = 6
+hrt_model_exec model_info --model_file bpu-siglip-base-patch16-384.hbm
+[BPU][[BPU_MONITOR]][281473635548064][INFO]BPULib verison(2, 1, 2)[0d3f195]!
+[DNN] HBTL_EXT_DNN log level:6
+[DNN]: 3.7.6_(4.3.3 HBRT)
+Load model to DDR cost 2559.82ms.
+This model file has 2 model:
+[last_hidden_state]	[pooler_output]	
+---------------------------------------------------------------------
+[model name]: last_hidden_state
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,384,384)
+aligned byte size: 1769472
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (1769472,589824,1536,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,576,768)
+aligned byte size: 1769472
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (1769472,3072,4)
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+[model name]: pooler_output
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,384,384)
+aligned byte size: 1769472
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (1769472,589824,1536,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,1,768)
+aligned byte size: 3072
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (3072,3072,4)
+
+---------------------------------------------------------------------
+
+[UCP]: log level = 3
+[UCP]: UCP version = 3.7.6
+[VP]: log level = 3
+[DNN]: log level = 3
+[HPL]: log level = 3
+[UCPT]: log level = 6
+hrt_model_exec model_info --model_file bpu-siglip-base-patch16-512.hbm
+[BPU][[BPU_MONITOR]][281473001094048][INFO]BPULib verison(2, 1, 2)[0d3f195]!
+[DNN] HBTL_EXT_DNN log level:6
+[DNN]: 3.7.6_(4.3.3 HBRT)
+Load model to DDR cost 4393.66ms.
+This model file has 2 model:
+[last_hidden_state]	[pooler_output]	
+---------------------------------------------------------------------
+[model name]: last_hidden_state
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,512,512)
+aligned byte size: 3145728
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (3145728,1048576,2048,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,1024,768)
+aligned byte size: 3145728
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (3145728,3072,4)
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+[model name]: pooler_output
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,512,512)
+aligned byte size: 3145728
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (3145728,1048576,2048,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,1,768)
+aligned byte size: 3072
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (3072,3072,4)
+
+---------------------------------------------------------------------
+
+[UCP]: log level = 3
+[UCP]: UCP version = 3.7.6
+[VP]: log level = 3
+[DNN]: log level = 3
+[HPL]: log level = 3
+[UCPT]: log level = 6
+hrt_model_exec model_info --model_file bpu-siglip-large-patch16-256.hbm
+[BPU][[BPU_MONITOR]][281473490844576][INFO]BPULib verison(2, 1, 2)[0d3f195]!
+[DNN] HBTL_EXT_DNN log level:6
+[DNN]: 3.7.6_(4.3.3 HBRT)
+Load model to DDR cost 3778.72ms.
+This model file has 2 model:
+[last_hidden_state]	[pooler_output]	
+---------------------------------------------------------------------
+[model name]: last_hidden_state
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,256,256)
+aligned byte size: 786432
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (786432,262144,1024,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,256,1024)
+aligned byte size: 1048576
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (1048576,4096,4)
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+[model name]: pooler_output
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,256,256)
+aligned byte size: 786432
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (786432,262144,1024,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,1,1024)
+aligned byte size: 4096
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (4096,4096,4)
+
+---------------------------------------------------------------------
+
+[UCP]: log level = 3
+[UCP]: UCP version = 3.7.6
+[VP]: log level = 3
+[DNN]: log level = 3
+[HPL]: log level = 3
+[UCPT]: log level = 6
+hrt_model_exec model_info --model_file bpu-siglip-large-patch16-384.hbm
+[BPU][[BPU_MONITOR]][281473815378848][INFO]BPULib verison(2, 1, 2)[0d3f195]!
+[DNN] HBTL_EXT_DNN log level:6
+[DNN]: 3.7.6_(4.3.3 HBRT)
+Load model to DDR cost 17100.7ms.
+This model file has 2 model:
+[last_hidden_state]	[pooler_output]	
+---------------------------------------------------------------------
+[model name]: last_hidden_state
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,384,384)
+aligned byte size: 1769472
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (1769472,589824,1536,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,576,1024)
+aligned byte size: 2359296
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (2359296,4096,4)
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+[model name]: pooler_output
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,384,384)
+aligned byte size: 1769472
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (1769472,589824,1536,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,1,1024)
+aligned byte size: 4096
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (4096,4096,4)
+
+---------------------------------------------------------------------
+
+[UCP]: log level = 3
+[UCP]: UCP version = 3.7.6
+[VP]: log level = 3
+[DNN]: log level = 3
+[HPL]: log level = 3
+[UCPT]: log level = 6
+hrt_model_exec model_info --model_file bpu-siglip-so400m-patch14-224.hbm
+[BPU][[BPU_MONITOR]][281473228831648][INFO]BPULib verison(2, 1, 2)[0d3f195]!
+[DNN] HBTL_EXT_DNN log level:6
+[DNN]: 3.7.6_(4.3.3 HBRT)
+Load model to DDR cost 6858.35ms.
+This model file has 2 model:
+[last_hidden_state]	[pooler_output]	
+---------------------------------------------------------------------
+[model name]: last_hidden_state
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,224,224)
+aligned byte size: 602112
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (602112,200704,896,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,256,1152)
+aligned byte size: 1179648
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (1179648,4608,4)
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+[model name]: pooler_output
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,224,224)
+aligned byte size: 602112
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (602112,200704,896,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,1,1152)
+aligned byte size: 4608
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (4608,4608,4)
+
+---------------------------------------------------------------------
+
+[UCP]: log level = 3
+[UCP]: UCP version = 3.7.6
+[VP]: log level = 3
+[DNN]: log level = 3
+[HPL]: log level = 3
+[UCPT]: log level = 6
+hrt_model_exec model_info --model_file bpu-siglip-so400m-patch14-384.hbm
+[BPU][[BPU_MONITOR]][281473702853536][INFO]BPULib verison(2, 1, 2)[0d3f195]!
+[DNN] HBTL_EXT_DNN log level:6
+[DNN]: 3.7.6_(4.3.3 HBRT)
+Load model to DDR cost 59209.6ms.
+This model file has 2 model:
+[last_hidden_state]	[pooler_output]	
+---------------------------------------------------------------------
+[model name]: last_hidden_state
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,384,384)
+aligned byte size: 1769472
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (1769472,589824,1536,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,729,1152)
+aligned byte size: 3359232
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (3359232,4608,4)
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+[model name]: pooler_output
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,384,384)
+aligned byte size: 1769472
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (1769472,589824,1536,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,1,1152)
+aligned byte size: 4608
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (4608,4608,4)
+
+---------------------------------------------------------------------
+
+[UCP]: log level = 3
+[UCP]: UCP version = 3.7.6
+[VP]: log level = 3
+[DNN]: log level = 3
+[HPL]: log level = 3
+[UCPT]: log level = 6
+hrt_model_exec model_info --model_file bpu-siglip-so400m-patch16-256-i18n.hbm
+[BPU][[BPU_MONITOR]][281473123974048][INFO]BPULib verison(2, 1, 2)[0d3f195]!
+[DNN] HBTL_EXT_DNN log level:6
+[DNN]: 3.7.6_(4.3.3 HBRT)
+Load model to DDR cost 5757.45ms.
+This model file has 2 model:
+[last_hidden_state]	[pooler_output]	
+---------------------------------------------------------------------
+[model name]: last_hidden_state
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,256,256)
+aligned byte size: 786432
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (786432,262144,1024,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,256,1152)
+aligned byte size: 1179648
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (1179648,4608,4)
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+[model name]: pooler_output
+
+input[0]: 
+name: _input_0
+valid shape: (1,3,256,256)
+aligned byte size: 786432
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (786432,262144,1024,4)
+
+output[0]: 
+name: _output_0
+valid shape: (1,1,1152)
+aligned byte size: 4608
+tensor type: HB_DNN_TENSOR_TYPE_F32
+quanti type: NONE
+stride: (4608,4608,4)
+
+---------------------------------------------------------------------
+
+====================================================================================================
+====================================================================================================
+====================================================================================================
+====================================================================================================
+====================================================================================================
+====================================================================================================
+====================================================================================================
+====================================================================================================
